@@ -1,0 +1,14 @@
+ /*manejo de errores
+            try
+            {
+                //realizamos una instacia de conneción  ala base d e datos
+                //necesita el parametro*********si sale error debemos poner doble \\ para la instancia
+                SqlConnection coneccion = new SqlConnection("Data Source=ROGER\\MSSQLSERVER16;Initial Catalog=Administracion;User ID=sa;Password=sql");
+                //Abre mi conexion a la base de datos
+                coneccion.Open();
+                MessageBox.Show("Se a conectado correctamente");
+
+            }catch(Exception error)
+            {
+                MessageBox.Show("A ocurrido un error en la conexion:" + error.Message);
+            }*/
